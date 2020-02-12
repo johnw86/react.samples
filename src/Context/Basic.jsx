@@ -36,8 +36,12 @@ class AccessibilityTextColor extends React.Component {
                 <AccessibilityContext.Consumer>
                     {context => (
                         <React.Fragment>
-                            <input type="text" onChange={(e) => context.setFontColor(e.target.value)} value={context.state.textColor}></input>
-                            <p style={{color: context.state.textColor}}>Color: {context.state.textColor}</p>
+                            <input
+                                type="text"
+                                onChange={e => context.setFontColor(e.target.value)}
+                                value={context.state.textColor}
+                            ></input>
+                            <p style={{ color: context.state.textColor }}>Color: {context.state.textColor}</p>
                         </React.Fragment>
                     )}
                 </AccessibilityContext.Consumer>
@@ -76,10 +80,10 @@ function AccessibilityBar() {
 
 function Footer(props) {
     return (
-        <React.Fragment>
-            <footer>&copy; Basic Context Example</footer>
+        <footer style={{ margin: 10 }}>
+            <p>&copy; Basic Context Example</p>
             <AccessibilityBar />
-        </React.Fragment>
+        </footer>
     );
 }
 
