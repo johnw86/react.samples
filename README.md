@@ -4,4 +4,4 @@
 * [Basic](src/Context/ContextBasicApp.jsx)
 
 ## Hooks
-* [Basic](src/Hooks/HooksBasicApp.jsx)
+* [Basic](src/Hooks/HooksBasicApp.js)
