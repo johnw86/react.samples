@@ -5,5 +5,8 @@ import './index.css';
 // import App from './App';
 // ReactDOM.render(<App />, document.getElementById('root'));
 
-import ContextBasicApp from './Context/Basic';
-ReactDOM.render(<ContextBasicApp />, document.getElementById('root'));
+// import ContextBasicApp from './Context/ContextBasicApp';
+// ReactDOM.render(<ContextBasicApp />, document.getElementById('root'));
+
+import HooksBasicApp from './Hooks/HooksBasicApp';
+ReactDOM.render(<HooksBasicApp />, document.getElementById('root'));

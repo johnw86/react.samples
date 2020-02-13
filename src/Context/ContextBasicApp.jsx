@@ -89,6 +89,10 @@ function Footer(props) {
 
 export default class ContextBasicApp extends React.Component {
     render() {
-        return <Footer></Footer>;
+        return (
+            <Footer>
+                <h1>Context Basic Example</h1>
+            </Footer>
+        );
     }
 }
