@@ -1,7 +1,7 @@
 # React.Samples
 
 ## Context
-* [Basic context](src/Context/ContextBasicApp.jsx)
+* [Basic](src/Context/ContextBasicApp.jsx)
 
 ## Hooks
-* [Basic context](src/Context/ContextBasicApp.jsx)
+* [Basic](src/Hooks/HooksBasicApp.jsx)
