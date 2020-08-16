@@ -7,4 +7,4 @@ yarn start
 
 ## Hooks
 * [Basic](src/Hooks/HooksBasicApp.js)
-* [Effect](src/Effects/UseEffectApp.js)
+* [Effect](src/Hooks/UseEffectApp.js)
