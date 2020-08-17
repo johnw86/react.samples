@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 
-function HooksBasicApp(props) {
+function UseStateApp(props) {
     return (
         <div>
-            <h1>Hooks Basic Example</h1>
+            <h1>UseState Basic Example</h1>
             <Games />
         </div>
     );
 }
 
-export default HooksBasicApp;
+export default UseStateApp;
 
 function Games() {
     const [games, setGames] = useState([

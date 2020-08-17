@@ -11,5 +11,8 @@ import './index.css';
 // import HooksBasicApp from './Hooks/HooksBasicApp';
 // ReactDOM.render(<HooksBasicApp />, document.getElementById('root'));
 
-import UseEffectApp from './Hooks/UseEffectApp';
-ReactDOM.render(<UseEffectApp />, document.getElementById('root'));
+// import UseEffectApp from './Hooks/UseEffectApp';
+// ReactDOM.render(<UseEffectApp />, document.getElementById('root'));
+
+import UseRefApp from './Hooks/UseRefApp';
+ReactDOM.render(<UseRefApp />, document.getElementById('root'));
