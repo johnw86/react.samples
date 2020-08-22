@@ -1,5 +1,7 @@
 import React, { useRef } from "react";
 
+// The useRef hook gives us the ability to have a persistant value which will not change across renders
+
 const UseRefApp = () => {
     const inputRef = useRef({});
 
