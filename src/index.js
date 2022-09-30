@@ -1,18 +1,21 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import './index.css';
 
 // import App from './App';
-// ReactDOM.render(<App />, document.getElementById('root'));
+// root.render(<App />);
 
 // import ContextBasicApp from './Context/ContextBasicApp';
-// ReactDOM.render(<ContextBasicApp />, document.getElementById('root'));
+// root.render(<ContextBasicApp />);
 
 // import HooksBasicApp from './Hooks/HooksBasicApp';
-// ReactDOM.render(<HooksBasicApp />, document.getElementById('root'));
+// root.render(<HooksBasicApp />);
 
 // import UseEffectApp from './Hooks/UseEffectApp';
-// ReactDOM.render(<UseEffectApp />, document.getElementById('root'));
+// root.render(<UseEffectApp />);
 
 import UseRefApp from './Hooks/UseRefApp';
-ReactDOM.render(<UseRefApp />, document.getElementById('root'));
+
+const container = document.getElementById('root');
+const root = createRoot(container);
+root.render(<UseRefApp />);
